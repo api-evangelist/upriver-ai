@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-upriver-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://upriver.ai/
+Upriver provides AI-powered structured data on creators, audiences, brands, trends, and sponsorships, enabling marketers and developers to enrich search, targeting, and campaign planning. Its API offers endpoints for brand research, product details, creator profiles, audience personas, sponsorship discovery, trend radar, and media samples, delivering real-time context for advertising and content strategy.
+
+**Areas:** AI · Marketing · Data · Creators · Brands · Trends · Sponsorship
+
+## upriver-ai on APIs.io
+
+Everything profiled for upriver-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/upriver-ai/](https://apis.io/providers/upriver-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [upriver-ai Account API](https://apis.io/apis/upriver-ai/upriver-ai-account-api/) — The Account API from upriver-ai — 1 operation(s) for account.
+- [upriver-ai Audience API](https://apis.io/apis/upriver-ai/upriver-ai-audience-api/) — The Audience API from upriver-ai — 2 operation(s) for audience.
+- [upriver-ai Brands API](https://apis.io/apis/upriver-ai/upriver-ai-brands-api/) — The Brands API from upriver-ai — 1 operation(s) for brands.
+- [upriver-ai Breakout Feeds API](https://apis.io/apis/upriver-ai/upriver-ai-breakout-feeds-api/) — The Breakout Feeds API from upriver-ai — 2 operation(s) for breakout feeds.
+- [upriver-ai Breakout Topics API](https://apis.io/apis/upriver-ai/upriver-ai-breakout-topics-api/) — The Breakout Topics API from upriver-ai — 11 operation(s) for breakout topics.
+- [upriver-ai Creators API](https://apis.io/apis/upriver-ai/upriver-ai-creators-api/) — The Creators API from upriver-ai — 5 operation(s) for creators.
+- [upriver-ai Images API](https://apis.io/apis/upriver-ai/upriver-ai-images-api/) — The Images API from upriver-ai — 1 operation(s) for images.
+- [upriver-ai Products API](https://apis.io/apis/upriver-ai/upriver-ai-products-api/) — The Products API from upriver-ai — 2 operation(s) for products.
+- [upriver-ai Sponsorships API](https://apis.io/apis/upriver-ai/upriver-ai-sponsorships-api/) — The Sponsorships API from upriver-ai — 3 operation(s) for sponsorships.
+- [upriver-ai Taxonomy API](https://apis.io/apis/upriver-ai/upriver-ai-taxonomy-api/) — The Taxonomy API from upriver-ai — 2 operation(s) for taxonomy.
+- [upriver-ai Trends API](https://apis.io/apis/upriver-ai/upriver-ai-trends-api/) — The Trends API from upriver-ai — 6 operation(s) for trends.
+- [upriver-ai Trends Radar (Beta) API](https://apis.io/apis/upriver-ai/upriver-ai-trends-radar-beta-api/) — The Trends Radar (Beta) API from upriver-ai — 7 operation(s) for trends radar (beta).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Upriver Ai Agentic Access](https://apis.io/agentic-access/upriver-ai/upriver-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreatorGetResponse](https://apis.io/schemas/upriver-ai/upriver-ai-creator-get-response/)
+- [CreatorSearchInput](https://apis.io/schemas/upriver-ai/upriver-ai-creator-search-input/)
+- [CreatorSimilarInput](https://apis.io/schemas/upriver-ai/upriver-ai-creator-similar-input/)
+- [SearchTopicsRequest](https://apis.io/schemas/upriver-ai/upriver-ai-search-topics-request/)
+- [TrendDetailResponse](https://apis.io/schemas/upriver-ai/upriver-ai-trend-detail-response/)
+- [TrendsBroadInput](https://apis.io/schemas/upriver-ai/upriver-ai-trends-broad-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Upriver Ai Context](https://apis.io/jsonld/upriver-ai/upriver-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [upriver-ai API Rules](https://apis.io/rules/upriver-ai/upriver-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Upriver Ai Authentication](https://apis.io/security/upriver-ai/upriver-ai-authentication/)
+- [Upriver Ai Domain Security](https://apis.io/security/upriver-ai/upriver-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Upriver Ai Scopes](https://apis.io/scopes/upriver-ai/upriver-ai-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://upriver.ai/)
+- [Documentation](https://docs.upriver.ai/)
+- [Getting started](https://docs.upriver.ai/index)
+- [API reference](https://docs.upriver.ai/api-reference/)
+- [Changelog](https://docs.upriver.ai/changelog)
+- [Terms of service](https://upriver.ai/terms)
+- [Privacy policy](https://upriver.ai/privacy)
+- [GitHub](https://github.com/upriver-ai)
+
+## API Evangelist rating
+
+**Kin Score 51.1** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 61.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 45.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/upriver-ai/](https://apis.io/providers/upriver-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for upriver-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/upriver-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
